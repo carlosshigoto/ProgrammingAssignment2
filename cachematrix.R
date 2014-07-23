@@ -2,7 +2,7 @@
 ## Carlos Contreras
 ## carlos.contreras@ualberta.ca
 
-## Creates of special storage for the Mmtrix
+## Creates a special storage for a matrix
 
 makeCacheMatrix  <- function(A = matrix()) {
     Ainv <- NULL
