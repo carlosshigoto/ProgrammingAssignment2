@@ -21,7 +21,7 @@ makeCacheMatrix  <- function(A = matrix()) {
 
 
 ## Computes the inverse of a matrix in sepcial storage, 
-## or retrieves the inverse if it has been already computd
+## or retrieves the inverse if it has been already computed
 
 cacheSolve <- function(A, ...) {
     Ainv <- A$getInverse()
